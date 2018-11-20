@@ -1,0 +1,11 @@
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.deps.json
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.runtimeconfig.json
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.runtimeconfig.dev.json
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.pdb
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.csprojAssemblyReference.cache
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.csproj.CoreCompileInputs.cache
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.AssemblyInfoInputs.cache
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.AssemblyInfo.cs
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.pdb

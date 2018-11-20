@@ -1,0 +1,17 @@
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.deps.json
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.runtimeconfig.json
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.runtimeconfig.dev.json
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.pdb
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.csprojAssemblyReference.cache
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.csproj.CoreCompileInputs.cache
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.AssemblyInfoInputs.cache
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.AssemblyInfo.cs
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.pdb
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculator.dll
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculator.pdb
+/Users/vilia.li/Projects/StringCalculator/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.csproj.CopyComplete
