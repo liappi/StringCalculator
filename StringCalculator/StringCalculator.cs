@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace StringCalculator {
     public class StringCalculator {
@@ -31,17 +32,24 @@ namespace StringCalculator {
         private int AddNumbers(string input, string customDelimiter) {
             var delimiters = new [] {",", "\n", customDelimiter};
             var numbers = input.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+            var negativeNumbers = new StringBuilder("");
         
             var sum = 0;
             foreach (var number in numbers) {
                 if (int.Parse(number) < 0) {
-                    throw new NegativeNumbersException("Negatives not allowed");
+//                    throw new NegativeNumbersException("Negatives not allowed");
+//                    throw new Exception("Negatives not allowed");
+                    negativeNumbers.Append(int.Parse(number));
                 }
 
                 if (int.Parse(number) >= 1000) {
                     continue;
                 }
                 sum += int.Parse(number);
+            }
+
+            if (negativeNumbers.Length > 0) {
+                throw new Exception("Negatives not allowed" + negativeNumbers);
             }
 
             return sum;
