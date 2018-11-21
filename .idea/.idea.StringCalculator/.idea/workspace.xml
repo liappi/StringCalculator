@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d10dbf3-04f9-4383-986c-7140ebb0479d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StringCalculator/NegativeNumbersException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/NegativeNumbersException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/NegativeNumbersException.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/StringCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/StringCalculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs" afterDir="false" />
@@ -47,12 +44,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3309" />
+          <entry key="cs" value="4014" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3309" />
+          <entry key="C#" value="4014" />
         </counts>
       </usages-collector>
     </session>
@@ -75,23 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StringCalculator/StringCalculator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
-                <marker date="1542768968327" expanded="true" signature="42:1697" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="78:1695" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="117:899" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="162:462" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="537:608" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="675:854" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="709:809" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="955:1135" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="1214:1689" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="1453:1654" ph="{...}" />
-                <marker date="1542768968327" expanded="true" signature="1498:1598" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="42:1397" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="78:1395" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="117:525" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="162:462" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="581:740" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="819:1389" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="1055:1354" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="1100:1200" ph="{...}" />
+                <marker date="1542831694141" expanded="true" signature="1249:1298" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,33 +95,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StringCalculator/NegativeNumbersException.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding>
-                <marker date="1542768868993" expanded="true" signature="42:192" ph="{...}" />
-                <marker date="1542768868993" expanded="true" signature="98:190" ph="{...}" />
-                <marker date="1542768868993" expanded="true" signature="172:184" ph="{...}" />
+                <marker date="1542769345535" expanded="true" signature="42:182" ph="{...}" />
+                <marker date="1542769345535" expanded="true" signature="98:180" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="754">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
               <folding>
-                <marker date="1542769055125" expanded="true" signature="6:52" ph="..." />
-                <marker date="1542769055125" expanded="true" signature="81:2752" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="110:2750" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="215:260" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="393:580" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="778:965" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="1129:1422" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="1745:1932" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="2224:2411" ph="{...}" />
-                <marker date="1542769055125" expanded="true" signature="2573:2744" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="6:52" ph="..." />
+                <marker date="1542771788753" expanded="true" signature="81:3263" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="110:3261" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="215:260" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="393:580" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="778:965" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="1129:1422" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="1745:1932" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="2278:2465" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="2656:2827" ph="{...}" />
+                <marker date="1542771788753" expanded="true" signature="3068:3255" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -148,8 +143,8 @@
       <list>
         <option value="$PROJECT_DIR$/TestProject1/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/StringCalculator/NegativeNumbersException.cs" />
-        <option value="$PROJECT_DIR$/StringCalculator/StringCalculator.cs" />
         <option value="$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/StringCalculator/StringCalculator.cs" />
       </list>
     </option>
   </component>
@@ -245,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542752339129</updated>
-      <workItem from="1542752340668" duration="7366000" />
+      <workItem from="1542752340668" duration="10460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7366000" />
+    <option name="totallyTimeSpent" value="10460000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,13 +261,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.50448835" side_tool="true" weight="0.24964234" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49551168" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49551168" visible="true" weight="0.26180258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" visible="true" weight="0.119277105" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" visible="true" weight="0.15783133" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" />
@@ -312,6 +307,26 @@
     <entry file="file://$PROJECT_DIR$/TestProject1/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+          <folding>
+            <marker date="1542771788753" expanded="true" signature="6:52" ph="..." />
+            <marker date="1542771788753" expanded="true" signature="81:3263" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="110:3261" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="215:260" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="393:580" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="778:965" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="1129:1422" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="1745:1932" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="2278:2465" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="2656:2827" ph="{...}" />
+            <marker date="1542771788753" expanded="true" signature="3068:3255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -325,51 +340,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/NegativeNumbersException.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
-            <marker date="1542768868993" expanded="true" signature="42:192" ph="{...}" />
-            <marker date="1542768868993" expanded="true" signature="98:190" ph="{...}" />
-            <marker date="1542768868993" expanded="true" signature="172:184" ph="{...}" />
+            <marker date="1542769345535" expanded="true" signature="42:182" ph="{...}" />
+            <marker date="1542769345535" expanded="true" signature="98:180" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/StringCalculator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
-            <marker date="1542768968327" expanded="true" signature="42:1697" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="78:1695" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="117:899" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="162:462" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="537:608" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="675:854" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="709:809" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="955:1135" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="1214:1689" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="1453:1654" ph="{...}" />
-            <marker date="1542768968327" expanded="true" signature="1498:1598" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding>
-            <marker date="1542769055125" expanded="true" signature="6:52" ph="..." />
-            <marker date="1542769055125" expanded="true" signature="81:2752" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="110:2750" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="215:260" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="393:580" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="778:965" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="1129:1422" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="1745:1932" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="2224:2411" ph="{...}" />
-            <marker date="1542769055125" expanded="true" signature="2573:2744" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="42:1397" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="78:1395" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="117:525" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="162:462" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="581:740" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="819:1389" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="1055:1354" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="1100:1200" ph="{...}" />
+            <marker date="1542831694141" expanded="true" signature="1249:1298" ph="{...}" />
           </folding>
         </state>
       </provider>

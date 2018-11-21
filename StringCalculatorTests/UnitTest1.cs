@@ -60,7 +60,8 @@ namespace StringCalculator {
         [InlineData("//;\n1;2;3", 6)]
         [InlineData("//;\n1;2,3", 6)]
         [InlineData("//;\n1;2,3\n4", 10)]
-        [InlineData("//;;\n1;;2;;3", 6)]
+        [InlineData("//[***]\n1***2***3\n4,4", 14)]
+        [InlineData("//[**]\n1**2**3", 6)]
         public void GivenAStringOfMultipleNumbersSeparatedByCustomDelimiterReturnsSum(string input, int expected) {
             var stringCalculator = new StringCalculator();
             var result = stringCalculator.Add(input);
@@ -76,6 +77,17 @@ namespace StringCalculator {
             var stringCalculator = new StringCalculator();
             
             Assert.Throws<NegativeNumbersException>(() => stringCalculator.Add(input));
+        }
+
+        [Theory]
+        [InlineData("1001,1002,2", 2)]
+        [InlineData("1000,2", 2)]
+        public void GivenAStringContainingNumberGreaterThanOrEqualToOneThousandReturnsSumIgnoringThatNumber(
+            string input, int expected) {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.Add(input);
+            
+            Assert.True(result.Equals(expected));
         }
     }
 }
