@@ -12,11 +12,46 @@ namespace StringCalculator {
         
         [Theory]
         [InlineData("", 0)]
-        [InlineData("something", 0)]
+        public void GivenAnEmptyStringReturnsZero(string input, int expected) {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.Add(input);
+            
+            Assert.True(result.Equals(expected));
+        }
+
+        [Theory]
         [InlineData("1", 1)]
         [InlineData("2", 2)]
         [InlineData("23", 23)]
-        public void GivenAStringReturnsANumber(string input, int expected) {
+        public void GivenANumberAsStringReturnsTheNumberAsInt(string input, int expected) {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.Add(input);
+            
+            Assert.True(result.Equals(expected));
+        }
+
+        [Theory]
+        [InlineData("1,2", 3)]
+        [InlineData("0,0", 0)]
+        [InlineData("-1,2", 1)]
+        [InlineData("-1\n2", 1)]
+        public void GivenAStringOfTwoNumbersReturnsSum(string input, int expected) {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.Add(input);
+            
+            output.WriteLine("Result: " + result);
+            output.WriteLine("Expected: " + expected);
+            Assert.True(result.Equals(expected));
+        }
+
+        [Theory]
+        [InlineData("1,2,3", 6)]
+        [InlineData("1,2,3,4", 10)]
+        [InlineData("1,2,3,0,0", 6)]
+        [InlineData("1\n2,3", 6)]
+        [InlineData("1\n2,3\n4", 10)]
+        [InlineData("1,2,3\n0,0", 6)]
+        public void GivenAStringOfMultipleNumbersReturnsSum(string input, int expected) {
             var stringCalculator = new StringCalculator();
             var result = stringCalculator.Add(input);
             
