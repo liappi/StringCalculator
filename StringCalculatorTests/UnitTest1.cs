@@ -73,6 +73,10 @@ namespace StringCalculator {
         [InlineData("//[*][;]\n1*2*3;4", 10)]
         [InlineData("//[*][;]\n1*2*3;4,4", 14)]
         [InlineData("//[*][;]\n1*2*3;4,4\n5", 19)]
+        [InlineData("//[**][;]\n1**2**3;4,4", 14)]
+        [InlineData("//[*][;;;]\n1*2*3;;;4,4", 14)]
+        [InlineData("//[*][;1;]\n1*2*3;1;4,4", 14)]
+        [InlineData("//[*][;11;]\n1*2*3;11;4,4", 14)]
         public void GivenAStringOfMultipleNumbersSeparatedByMultipleCustomDelimitersReturnsSum(string input,
             int expected) {
             var stringCalculator = new StringCalculator();

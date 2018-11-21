@@ -6,28 +6,17 @@ using System.Text;
 namespace StringCalculator {
     public class StringCalculator {
         public int Add(string input) {
-            string customDelimiter = null;
             var delimiters = new List<string>();
             delimiters.Add(",");
             delimiters.Add("\n");
             
             if (HasCustomDelimiter(input)) {
                 var indexOfCustomDelimiter = input.IndexOf('\n');
-                
-                customDelimiter = GetCustomDelimiter(input, indexOfCustomDelimiter);
 
-                if (customDelimiter.Contains("][")) {
-                    var customDelimiters = customDelimiter.Split("][", StringSplitOptions.RemoveEmptyEntries);
-                    foreach (var delimiter in customDelimiters) {
-                        delimiters.Add(delimiter);
-                    }
-                }
-                else {
-                    delimiters.Add(customDelimiter);
-                }
+                var customDelimiters = GetCustomDelimiters(input, indexOfCustomDelimiter);
+                delimiters = delimiters.Concat(customDelimiters).ToList();
                 
                 input = GetNumbersFromInput(input, indexOfCustomDelimiter);
-                
             }
 
             return AddNumbers(input, delimiters.ToArray());
@@ -38,22 +27,47 @@ namespace StringCalculator {
             return !input.Equals("") && inputs[0] == '/' && inputs[1] == '/' && input.Contains("\n");
         }
 
-        private string GetCustomDelimiter(string input, int indexOfCustomDelimiter) {
-            var delimiter = input.Substring(2, indexOfCustomDelimiter - 2);
-            if (delimiter.Length > 1) {
-                delimiter = delimiter.Substring(1, delimiter.Length - 2);
-            }
-
-            return delimiter;
+        private bool HasMultipleCustomDelimiters(string customDelimiter) {
+            return customDelimiter.Contains("][");
         }
 
-        private string[] GetMultipleCustomDelimiters(string input, int indexOfCustomDelimiter) {
-            var customDelimiters = input.Substring(2, indexOfCustomDelimiter - 2);
-            if (customDelimiters.Length > 1) {
-                customDelimiters = customDelimiters.Substring(1, customDelimiters.Length - 2);
+        private List<string> GetCustomDelimiters(string input, int indexOfCustomDelimiter) {
+            var delimiters = new List<string>();
+            
+            var customDelimiter = input.Substring(2, indexOfCustomDelimiter - 2);
+            
+            if (customDelimiter.Length > 1) {
+                customDelimiter = customDelimiter.Substring(1, customDelimiter.Length - 2);
+                
+                if (HasMultipleCustomDelimiters(customDelimiter)) {
+//                    delimiters = GetMultipleCustomDelimiters(customDelimiter);
+                    
+                    var customDelimiters = customDelimiter.Split("][", StringSplitOptions.RemoveEmptyEntries);
+                    foreach (var delimiter in customDelimiters) {
+                        delimiters.Add(delimiter);
+                    }
+
+                }
+                else {
+                    delimiters.Add(customDelimiter);
+                }
+            }
+            else {
+                delimiters.Add(customDelimiter);
             }
 
-            return customDelimiters.Split("][", StringSplitOptions.RemoveEmptyEntries);
+            return delimiters;
+        }
+
+        private List<string> GetMultipleCustomDelimiters(string customDelimiter) {
+            var delimiters = new List<string>();
+            
+            var customDelimiters = customDelimiter.Split("][", StringSplitOptions.RemoveEmptyEntries);
+            foreach (var delimiter in customDelimiters) {
+                delimiters.Add(delimiter);
+            }
+
+            return delimiters;
         }
 
         private string GetNumbersFromInput(string input, int indexOfCustomDelimiter) {

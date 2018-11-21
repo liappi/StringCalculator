@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d10dbf3-04f9-4383-986c-7140ebb0479d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/StringCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/StringCalculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/netcoreapp2.1/StringCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/netcoreapp2.1/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/bin/Debug/netcoreapp2.1/StringCalculatorTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculatorTests/obj/Debug/netcoreapp2.1/StringCalculatorTests.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="5931" />
+          <entry key="cs" value="7326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="5931" />
+          <entry key="C#" value="7326" />
         </counts>
       </usages-collector>
     </session>
@@ -74,28 +67,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StringCalculator/StringCalculator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="49" column="95" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
+            <state relative-caret-position="364">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
-                <marker date="1542838348280" expanded="true" signature="6:85" ph="..." />
-                <marker date="1542838348280" expanded="true" signature="114:3081" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="150:3079" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="189:1187" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="406:1116" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="629:898" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="806:880" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="898:992" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="1243:1402" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="1488:1734" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="1604:1693" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="1831:2170" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="1961:2071" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="2257:2332" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="2400:3073" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="2627:2897" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="2672:2743" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="2792:2841" ph="{...}" />
-                <marker date="1542838348280" expanded="true" signature="2943:3038" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="6:85" ph="..." />
+                <marker date="1542841490489" expanded="true" signature="114:3521" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="150:3519" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="189:775" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="363:704" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="831:990" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="1065:1127" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="1220:2204" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="1423:2080" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="1600:1972" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="1879:1953" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="1972:2066" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="2080:2162" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="2287:2610" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="2510:2568" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="2697:2772" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="2840:3513" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="3067:3337" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="3112:3183" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="3232:3281" ph="{...}" />
+                <marker date="1542841490489" expanded="true" signature="3383:3478" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -236,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542752339129</updated>
-      <workItem from="1542752340668" duration="16431000" />
+      <workItem from="1542752340668" duration="19335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16431000" />
+    <option name="totallyTimeSpent" value="19335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,7 +258,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" visible="true" weight="0.13493976" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" visible="true" weight="0.11686747" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" />
@@ -344,28 +339,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/StringCalculator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="49" column="95" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
+        <state relative-caret-position="364">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
-            <marker date="1542838348280" expanded="true" signature="6:85" ph="..." />
-            <marker date="1542838348280" expanded="true" signature="114:3081" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="150:3079" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="189:1187" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="406:1116" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="629:898" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="806:880" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="898:992" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="1243:1402" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="1488:1734" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="1604:1693" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="1831:2170" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="1961:2071" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="2257:2332" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="2400:3073" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="2627:2897" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="2672:2743" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="2792:2841" ph="{...}" />
-            <marker date="1542838348280" expanded="true" signature="2943:3038" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="6:85" ph="..." />
+            <marker date="1542841490489" expanded="true" signature="114:3521" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="150:3519" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="189:775" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="363:704" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="831:990" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="1065:1127" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="1220:2204" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="1423:2080" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="1600:1972" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="1879:1953" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="1972:2066" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="2080:2162" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="2287:2610" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="2510:2568" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="2697:2772" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="2840:3513" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="3067:3337" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="3112:3183" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="3232:3281" ph="{...}" />
+            <marker date="1542841490489" expanded="true" signature="3383:3478" ph="{...}" />
           </folding>
         </state>
       </provider>
