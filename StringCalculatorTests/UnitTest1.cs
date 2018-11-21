@@ -33,8 +33,6 @@ namespace StringCalculator {
         [Theory]
         [InlineData("1,2", 3)]
         [InlineData("0,0", 0)]
-        [InlineData("-1,2", 1)]
-        [InlineData("-1\n2", 1)]
         public void GivenAStringOfTwoNumbersReturnsSum(string input, int expected) {
             var stringCalculator = new StringCalculator();
             var result = stringCalculator.Add(input);
@@ -68,6 +66,16 @@ namespace StringCalculator {
             var result = stringCalculator.Add(input);
             
             Assert.True(result.Equals(expected));
+        }
+
+        [Theory]
+        [InlineData("-1")]
+        [InlineData("-1,2")]
+        [InlineData("1,-2")]
+        public void GivenAStringContainingANegativeNumberThrowsException(string input) {
+            var stringCalculator = new StringCalculator();
+            
+            Assert.Throws<NegativeNumbersException>(() => stringCalculator.Add(input));
         }
     }
 }

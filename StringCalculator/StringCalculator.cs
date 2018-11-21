@@ -16,6 +16,9 @@ namespace StringCalculator {
             }
             
             if (int.TryParse(input, out var output)) {
+                if (output < 0) {
+                    throw new NegativeNumbersException("Negatives not allowed");
+                }
                 return output;
             }
             
@@ -33,6 +36,9 @@ namespace StringCalculator {
         
             var sum = 0;
             foreach (var number in numbers) {
+                if (int.Parse(number) < 0) {
+                    throw new NegativeNumbersException("Negatives not allowed");
+                }
                 sum += int.Parse(number);
             }
 
