@@ -57,5 +57,17 @@ namespace StringCalculator {
             
             Assert.True(result.Equals(expected));
         }
+
+        [Theory]
+        [InlineData("//;\n1;2;3", 6)]
+        [InlineData("//;\n1;2,3", 6)]
+        [InlineData("//;\n1;2,3\n4", 10)]
+        [InlineData("//;;\n1;;2;;3", 6)]
+        public void GivenAStringOfMultipleNumbersSeparatedByCustomDelimiterReturnsSum(string input, int expected) {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.Add(input);
+            
+            Assert.True(result.Equals(expected));
+        }
     }
 }
