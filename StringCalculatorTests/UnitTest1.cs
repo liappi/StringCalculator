@@ -70,6 +70,18 @@ namespace StringCalculator {
         }
 
         [Theory]
+        [InlineData("//[*][;]\n1*2*3;4", 10)]
+        [InlineData("//[*][;]\n1*2*3;4,4", 14)]
+        [InlineData("//[*][;]\n1*2*3;4,4\n5", 19)]
+        public void GivenAStringOfMultipleNumbersSeparatedByMultipleCustomDelimitersReturnsSum(string input,
+            int expected) {
+            var stringCalculator = new StringCalculator();
+            var result = stringCalculator.Add(input);
+            
+            Assert.True(result.Equals(expected));
+        }
+
+        [Theory]
         [InlineData("-1")]
         [InlineData("-1,2")]
         [InlineData("1,-2")]
