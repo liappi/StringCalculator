@@ -77,7 +77,6 @@ namespace StringCalculator {
             var stringCalculator = new StringCalculator();
             
             Assert.Throws<Exception>(() => stringCalculator.Add(input));
-//            Assert.Throws<NegativeNumbersException>(() => stringCalculator.Add(input));
         }
 
         [Theory]
