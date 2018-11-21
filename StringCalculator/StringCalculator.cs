@@ -3,15 +3,16 @@ using System;
 namespace StringCalculator {
     public class StringCalculator {
         public int Add(string input) {
+            string customDelimiter = null;
+            
             if (HasCustomDelimiter(input)) {
-                var indexOfDelimiter = input.IndexOf('\n');
-                var delimiter = input.Substring(2, indexOfDelimiter - 2);
-                var numbersFromInput = input.Substring(indexOfDelimiter + 1);
-
-                return AddMultipleNumbers(numbersFromInput, delimiter);
+                var indexOfCustomDelimiter = input.IndexOf('\n');
+                
+                customDelimiter = GetDelimiter(input, indexOfCustomDelimiter);
+                input = GetNumbersFromInput(input, indexOfCustomDelimiter);
             }
 
-            return AddMultipleNumbers(input, null);
+            return AddNumbers(input, customDelimiter);
         }
 
         private bool HasCustomDelimiter(string input) {
@@ -19,7 +20,15 @@ namespace StringCalculator {
             return !input.Equals("") && inputs[0] == '/' && inputs[1] == '/' && input.Contains("\n");
         }
 
-        private int AddMultipleNumbers(string input, string customDelimiter) {
+        private string GetDelimiter(string input, int indexOfCustomDelimiter) {
+            return input.Substring(2, indexOfCustomDelimiter - 2);
+        }
+
+        private string GetNumbersFromInput(string input, int indexOfCustomDelimiter) {
+            return input.Substring(indexOfCustomDelimiter + 1);
+        }
+
+        private int AddNumbers(string input, string customDelimiter) {
             var delimiters = new [] {",", "\n", customDelimiter};
             var numbers = input.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
         
