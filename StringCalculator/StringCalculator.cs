@@ -22,7 +22,12 @@ namespace StringCalculator {
         }
 
         private string GetDelimiter(string input, int indexOfCustomDelimiter) {
-            return input.Substring(2, indexOfCustomDelimiter - 2);
+            var delimiter = input.Substring(2, indexOfCustomDelimiter - 2);
+            if (delimiter.Length > 1) {
+                delimiter = delimiter.Substring(1, delimiter.Length - 2);
+            }
+
+            return delimiter;
         }
 
         private string GetNumbersFromInput(string input, int indexOfCustomDelimiter) {
@@ -37,7 +42,7 @@ namespace StringCalculator {
             var sum = 0;
             foreach (var number in numbers) {
                 if (int.Parse(number) < 0) {
-                    negativeNumbers.Append(int.Parse(number));
+                    negativeNumbers.Append(number);
                 }
 
                 if (int.Parse(number) >= 1000) {
