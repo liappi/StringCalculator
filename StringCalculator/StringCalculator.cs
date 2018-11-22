@@ -40,13 +40,7 @@ namespace StringCalculator {
                 customDelimiter = customDelimiter.Substring(1, customDelimiter.Length - 2);
                 
                 if (HasMultipleCustomDelimiters(customDelimiter)) {
-//                    delimiters = GetMultipleCustomDelimiters(customDelimiter);
-                    
-                    var customDelimiters = customDelimiter.Split("][", StringSplitOptions.RemoveEmptyEntries);
-                    foreach (var delimiter in customDelimiters) {
-                        delimiters.Add(delimiter);
-                    }
-
+                    delimiters = GetMultipleCustomDelimiters(customDelimiter);
                 }
                 else {
                     delimiters.Add(customDelimiter);
