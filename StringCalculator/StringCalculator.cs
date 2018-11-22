@@ -32,25 +32,19 @@ namespace StringCalculator {
         }
 
         private List<string> GetCustomDelimiters(string input, int indexOfCustomDelimiter) {
-            var delimiters = new List<string>();
+            var customDelimiters = new List<string>();
             
             var customDelimiter = input.Substring(2, indexOfCustomDelimiter - 2);
             
             if (customDelimiter.Length > 1) {
                 customDelimiter = customDelimiter.Substring(1, customDelimiter.Length - 2);
-                
-                if (HasMultipleCustomDelimiters(customDelimiter)) {
-                    delimiters = GetMultipleCustomDelimiters(customDelimiter);
-                }
-                else {
-                    delimiters.Add(customDelimiter);
-                }
+                customDelimiters = GetMultipleCustomDelimiters(customDelimiter);
             }
             else {
-                delimiters.Add(customDelimiter);
+                customDelimiters.Add(customDelimiter);
             }
 
-            return delimiters;
+            return customDelimiters;
         }
 
         private List<string> GetMultipleCustomDelimiters(string customDelimiter) {
