@@ -27,18 +27,13 @@ namespace StringCalculator {
             return !input.Equals("") && inputs[0] == '/' && inputs[1] == '/' && input.Contains("\n");
         }
 
-        private bool HasMultipleCustomDelimiters(string customDelimiter) {
-            return customDelimiter.Contains("][");
-        }
-
         private List<string> GetCustomDelimiters(string input, int indexOfCustomDelimiter) {
             var customDelimiters = new List<string>();
             
             var customDelimiter = input.Substring(2, indexOfCustomDelimiter - 2);
             
             if (customDelimiter.Length > 1) {
-                customDelimiter = customDelimiter.Substring(1, customDelimiter.Length - 2);
-                customDelimiters = GetMultipleCustomDelimiters(customDelimiter);
+                customDelimiters = GetSeparatedCustomDelimiters(customDelimiter);
             }
             else {
                 customDelimiters.Add(customDelimiter);
@@ -47,8 +42,10 @@ namespace StringCalculator {
             return customDelimiters;
         }
 
-        private List<string> GetMultipleCustomDelimiters(string customDelimiter) {
+        private List<string> GetSeparatedCustomDelimiters(string customDelimiter) {
             var delimiters = new List<string>();
+            
+            customDelimiter = customDelimiter.Substring(1, customDelimiter.Length - 2);
             
             var customDelimiters = customDelimiter.Split("][", StringSplitOptions.RemoveEmptyEntries);
             foreach (var delimiter in customDelimiters) {
